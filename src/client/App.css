@@ -1,0 +1,9 @@
+.App {
+  width: 1245px;
+  margin: 70px auto;
+  font-family: 'Proxima Nova', 'Arial', 'Helvetica Neue', sans-serif
+}
+
+a {
+  text-decoration: none;
+}
