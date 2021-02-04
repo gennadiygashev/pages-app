@@ -1,5 +1,5 @@
-import * as React from 'react';
-import {Link, useLocation} from 'react-router-dom'
+import * as React from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import './Header.css'
 
 const Header = () => {
@@ -13,20 +13,16 @@ const Header = () => {
         </div>
         <nav>
           <ul>
-            {
-              pathname !== '/' ? (
-                <li>
-                  <Link to='/'>
-                    To Home Page
-                  </Link>
-                </li>
-              ) : null
-            }
+            {pathname !== '/' ? (
+              <li>
+                <Link to='/'>To Home Page</Link>
+              </li>
+            ) : null}
           </ul>
         </nav>
       </section>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

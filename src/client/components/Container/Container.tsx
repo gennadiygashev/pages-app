@@ -6,11 +6,7 @@ type Props = {
 }
 
 const Container: React.FC<Props> = ({ children }) => {
-  return (
-    <section className='Container'>
-      { children }
-    </section>
-  );
-};
+  return <section className='Container'>{children}</section>
+}
 
-export default Container;
+export default Container

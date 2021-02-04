@@ -20,9 +20,7 @@ const PagesList = () => {
         <ul>
           {articles.map(item => (
             <li>
-              <Link to={`/page/${item}`}>
-                {item.replace(/.md/g, '')}
-              </Link>
+              <Link to={`/page/${item}`}>{item.replace(/.md/g, '')}</Link>
             </li>
           ))}
         </ul>

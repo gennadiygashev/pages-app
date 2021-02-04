@@ -7,11 +7,13 @@ const Layout = () => {
         <meta charSet='UTF-8' />
         <title>Pages-app</title>
       </head>
-      <body style={{
-        margin: 0,
-        padding: 0,
-        backgroundColor: 'black'
-      }}>
+      <body
+        style={{
+          margin: 0,
+          padding: 0,
+          backgroundColor: 'black'
+        }}
+      >
         <div id='app' />
         <script src='/bundle.js' />
       </body>
